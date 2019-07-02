@@ -46,3 +46,12 @@ class List(models.Model):
     )
     text = models.CharField(max_length=200)
     done = models.BooleanField(default=False) 
+
+class Comments(models.Model):
+    id = models.AutoField(primary_key=True)
+    userId= models.ForeignKey(
+        'Profile',
+        on_delete=models.CASCADE, 
+    )
+    comment = models.CharField(max_length=200)
+    likes = models.IntegerField(default=0)

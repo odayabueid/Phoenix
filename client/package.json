@@ -14,6 +14,7 @@
     "material-table": "^1.39.2",
     "mdbreact": "^4.16.0",
     "react": "^16.8.6",
+    "react-awesome-modal": "^2.0.5",
     "react-axios": "^2.0.3",
     "react-body-backgroundcolor": "^1.2.1",
     "react-devtools": "^3.6.1",

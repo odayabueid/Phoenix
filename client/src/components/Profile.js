@@ -9,7 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Prof from './Prof.js';
-
+import Comments from './Comments';
 
 class Profile extends React.Component{ 
     constructor(props){
@@ -78,6 +78,7 @@ class Profile extends React.Component{
             
           />
         )}
+        {/* <Comments/> */}
         </div>
     )}
   }

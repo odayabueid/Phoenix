@@ -1,7 +1,3 @@
 {
-<<<<<<< HEAD
-    "python.pythonPath": "phoenix/bin/python"
-=======
-    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3"
->>>>>>> 0e7bff595e1c5dfcaf115706a3bf60497ca536a2
+    "python.pythonPath": "/home/iman/.local/share/virtualenvs/Phoenix-yf5dA9e8/bin/python"
 }

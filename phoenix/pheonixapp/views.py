@@ -36,7 +36,6 @@ class detailListView(APIView):
 
 
 class UpDateProfiledata(APIView):
- 
 
     def put(self, request, pk):
         saved_profile = get_object_or_404(Profile.objects.all(), pk=pk)

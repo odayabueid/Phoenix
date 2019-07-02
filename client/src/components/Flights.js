@@ -195,10 +195,7 @@ class Flights extends React.Component{
       },()=>console.log(this.state))
     }
 
-  //   componentWillMount()
-  //  {
-  //    this.onInputChange = this.from.bind(this);
-  //  }
+
 
     from(str){
       console.log(this.state,str,"helloooooooooooooooooooo")
@@ -549,7 +546,7 @@ class Flights extends React.Component{
           
            {/* <a href={p.DeeplinkUrl}>Booking</a> */}
            <span>
-           <button className="btn btn-warning"><a href={p.DeeplinkUrl}>Booking</a></button>
+           <button className="btn btn-warning"><a href={p.DeeplinkUrl} target="_blank">Booking</a></button>
            </span>
           {/* <li>{that.state.Agents.map(function(agent){
             if(p.Agents == agent.Id){

@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 from pheonixapp.models import Hotels
 from django.contrib.auth import authenticate
 from pheonixapp.models import List
+from pheonixapp.models import Comments
 
 class listSerializer(serializers.ModelSerializer):
     class Meta:
@@ -84,6 +85,10 @@ class HotelsSerializer(serializers.ModelSerializer):
         model = Hotels
         fields = '__all__'
 
+class CommentsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Comments
+        fields = '__all__'
 
 
 

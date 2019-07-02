@@ -1,0 +1,50 @@
+.section1.no-background {
+	background: transparent;
+}
+
+.center1 {
+	margin: 0 auto;
+}
+
+img.avatar1 {
+	border-radius: 15%;
+}
+
+.inline1{
+	display: inline;
+}
+
+p {
+	font-size: 16px;
+}
+
+.button1 {
+	margin-left: 20px;
+}
+
+.youtube1 {
+	background-color: #e62117;
+	color: #eee;
+}
+
+.youtube1:hover {
+	color: #fff;
+}
+
+.youtube1.is-disabled {
+	background-color: #e62117;
+}
+
+.twitch1 {
+	background-color: #6441a4;
+	color: #eee;
+}
+
+.twitch1:hover {
+	color: #fff;
+}
+
+.twitch1.is-disabled {
+    background-color: #6441a4;
+    
+}

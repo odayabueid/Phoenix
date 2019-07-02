@@ -60,8 +60,9 @@ class Checklist extends React.Component{
       }).catch(function(err){
         return (err)
       })
-  }
-  // componentDidMount(){
+    }
+
+    // componentDidMount(){
   //   var that=this;
   //   fetch('TravelList/')
   //   .then(data => data.json())
@@ -180,10 +181,10 @@ var that = this
   render(){
     return(
       
-      <div className=".container" style={{height:'100vh',background: 'linear-gradient(to left bottom, rgba(255,0,0,0), rgba(249, 105, 14, 1)'}}>
+      <div className=".container" style={{height:'100vh',backgroundImage:"url('https://worldoftravel.co/wp-content/uploads/MyTravel_India_56ab7400569e61c81ee96d81.jpeg')" }}>
 
-    <div className="row" style={{marginLeft: '33px'}}>
-        <div className="col-md-6">
+    <div className="row " style={{marginLeft: '33px'}}>
+        <div className="col-md-6" style={{background:'rgb(0,0,0,0.5)',width: '43%',marginTop: '29px',position:'absolute', borderRadius: '13px'}}>
             <div className="todolist not-done">
              <div className="checkbox">
                
@@ -198,8 +199,8 @@ var that = this
                         <br/>
 
                     <li className="ui-state-default">
-                        <div className="checkbox">
-                            <label style ={{fontSize:'25px',color:'black'}}>
+                        <div className="checkbox" style={{marginLeft: '15px'}}>
+                            <label style ={{fontSize:'25px',color:'white',fontStyle: 'italic',fontFamily:"serif"}}>
                                 <input type="checkbox" value="" style={{zoom: '1.9'}} />{item.text}</label>
                                 <button onClick={this.delete.bind(this)} value={item.id} class="btn btn-dark" style={bt}> delete</button>
                                 <hr/>
@@ -213,6 +214,16 @@ var that = this
             </div>
         </div>
     </div>
+    <div style={{background:'rgb(102,0,51,0.5)', width:'40%',float:'right',marginTop: '159px',borderRadius: '15px', marginRight:'97px'}}>
+          <h1 style={{fontStyle: 'italic',fontFamily:"serif"}}>Recommendations</h1>
+          <br/>
+          <ul style={{marginLeft:'19px',fontSize:'26px',color: 'white'}}>
+            <li> √ don't forget the toothbrush</li>
+            <li> √ book for long trips</li>
+            <li> √ passport</li>
+
+          </ul>
+        </div>
 </div>
     )
   }

@@ -19,6 +19,7 @@ import { red } from '@material-ui/core/colors';
 import Prof from './Prof.js';
 
 
+
 class Blogs extends React.Component{
     constructor(props){
           super(props);
@@ -30,13 +31,11 @@ class Blogs extends React.Component{
           redirect:false	
         }
     }
-      // i want to save what i write inside seach bar in the search to use it later when i want to bring the resultes
     Search(event){
       this.setState({
         search : event.target.value
       })
     }
-      // to bring the data for hotels from database i use fetch and i save the data inside books array 
     componentDidMount(){
       fetch("blogs/")
         .then(data => data.json())
@@ -65,27 +64,26 @@ class Blogs extends React.Component{
          })
       }
 
- // to change the value of redirect to true thats mean redirect to profile 
+
     prof(){
       console.log(this.state.books)
       this.setState({
         redirect:true
       })
     }
-// redirect to profile path with data 
+
     renderRedirect = () =>{
       if(this.state.redirect){
-        // return <Redirect to ='Profile' />
+        console.log(this.state.username)
         return <Redirect to = {{
           pathname:"Profile/",
           username:this.state.username,
           state:{newbook:this.state.newbook}
-        }} />
+        }}/>
       }
     }
 
      render(){
-      // to filter the hotels depends on the search bar input
        let filtered =this.state.books.filter(
          (book) =>{
            console.log(book)

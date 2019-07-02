@@ -102,6 +102,7 @@ class Currancy extends React.Component {
 		);
 	}
 }
+//this is a test comment
 export default Currancy;
 
 

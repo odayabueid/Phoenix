@@ -190,8 +190,3 @@ class RequestsTest(TestCase):
         self.client = Client()
         response = self.client.post('/blogs/',{"ProfileId" : user.id ,"title":"any thing" ,"country":"amman","Blog":"my blog","image":"https://ntmresizer.azureedge.net/sized/358/284/www.cfmedia.vfmleonardo.com/imageRepo/6/0/100/1/34/ammsi-exterior-3061-hor-clsc_S.jpg"})
         self.assertEqual(response.status_code, 201)
-
-
- 
-
-    
