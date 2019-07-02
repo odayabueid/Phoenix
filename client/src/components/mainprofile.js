@@ -255,13 +255,9 @@ click(){
   })
 }
 
-
-
-
-
     render(){
 
-return(<div id="div">
+return(<div id="div" style={{marginTop:"20px",marginRight:'250px'}}>
         {this.renderRedirect()}
         {!this.state.status ? (
      <div style={{width:"100%"}}>

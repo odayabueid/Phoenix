@@ -165,11 +165,11 @@ class App extends React.Component {
             <div>
               
               <div>
-                <div  style={{backgroundColor:"#212F3D",height: '350px',textAlign: 'center', clear: 'both',position: 'relative', left: '0',bottom: '0', width: '100%'}} >
+                <div  style={{backgroundColor:"#212F3D",height: '300px',textAlign: 'center',marginTop:'50px', clear: 'both',position: 'relative', left: '0',bottom: '0', width: '100%'}} >
                   <div style={{position:'absolute',textAlign: 'center', clear: 'both',left: '0',bottom: '30', width: '100%'}}>
                   <div class="container">
                   <div class="row row-bottom-padded-md">
-                <div style={{marginTop:"50px"}}>
+                <div style={{marginTop:"40px"}}>
                   <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
                     <h3 style={{color:'white',fontSize:'25px'}}>About Travel</h3>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia , there live the blind texts.</p>

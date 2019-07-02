@@ -87,7 +87,7 @@ class SignIn extends React.Component{
               {!this.state.toggleSignIn ? (
                      <div>
                      <Grid container component="main" style={{height: '100vh'}}>
-                     <Grid item xs={false} sm={4} md={7} style={{backgroundImage:"url('https://source.unsplash.com/random')" ,backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition: 'center'}} />
+                     <Grid item xs={false} sm={4} md={7} style={{backgroundImage:"url('https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')" ,backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition: 'center'}} />
                      <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
            
            
@@ -95,7 +95,7 @@ class SignIn extends React.Component{
                          <Avatar style={{ margin:"theme.spacing(1)",backgroundColor:"#FA3905"}}>
                            <LockOutlinedIcon />
                          </Avatar>
-                         <Typography component="h1" variant="h5" >
+                         <Typography component="h1" variant="h5" style={{color:"#FA3905"}}>
                            Sign in
                          </Typography>
                          <form  style={{ width: '100%', marginTop:'theme.spacing(1)'}} noValidate>
