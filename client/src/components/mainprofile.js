@@ -215,6 +215,8 @@ class Mainprofile extends React.Component{
         })
       }).then(()=>{
         this.closeModal()
+      }).then(()=>{
+        this.blog()
       });
   }
 

@@ -44,10 +44,10 @@ class HomePage extends React.Component {
   componentDidMount(e){
     // e.componentWillReceiveProps()
   
-      if(!window.location.hash) {
-          window.location = window.location + '#loaded';
-          window.location.reload();
-      }
+      // if(!window.location.hash) {
+      //     window.location = window.location + '#loaded';
+      //     window.location.reload();
+      // }
   
     fetch("blogs/")
       .then(data => data.json())

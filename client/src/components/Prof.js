@@ -125,10 +125,10 @@ class Prof extends React.Component{
                 <br/>
               <h1 className="title is-2 inline1" style={{color:"black"}} >{this.state.username}</h1>
               <div>
-                         <h3>{this.state.email}</h3>
+                         
                           
                             <div>
-                              <p>{this.state.bio}</p>
+                              <p>{this.state.bio1}</p>
                             </div>
                         </div> 
               <br/>

@@ -219,8 +219,11 @@ var that = this
           <br/>
           <ul style={{marginLeft:'19px',fontSize:'26px',color: 'white'}}>
             <li> √ don't forget the toothbrush</li>
-            <li> √ book for long trips</li>
-            <li> √ passport</li>
+            <li> √ book for long trips , one way trip lol</li>
+            <li> √ your passport if you actually plan to get out of the country </li>
+            <li> √ Money duuh!</li>
+            <li> √ If you love your cat you will not leave it behind</li>
+            
 
           </ul>
         </div>

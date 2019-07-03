@@ -89,11 +89,11 @@ class Currancy extends React.Component {
     height: "40px",
     marginTop:"36.8%",
     marginRight:"13%",
-    background: "white"}}>{Math.round(this.state.total*Math.pow(10, 2 || 0)/Math.pow(10, 2 || 0))}</h1> 
+    background: "white"}}>{this.state.total}</h1> 
                     </div>
                     <div>
                         <h1>
-                            convert to USD
+                            convert from USD
                         </h1>
                     </div>
                 </form>

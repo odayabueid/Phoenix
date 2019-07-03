@@ -87,7 +87,7 @@ class SignIn extends React.Component{
               {!this.state.toggleSignIn ? (
                      <div>
                      <Grid container component="main" style={{height: '100vh'}}>
-                     <Grid item xs={false} sm={4} md={7} style={{backgroundImage:"url('https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')" ,backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition: 'center'}} />
+                     <Grid item xs={false} sm={4} md={7} style={{backgroundImage:"url('https://images.pexels.com/photos/1252500/pexels-photo-1252500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')" ,backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition: 'center'}} />
                      <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
            
            
